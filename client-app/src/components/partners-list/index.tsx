@@ -1,0 +1,1 @@
+export {PartnersListContainer as default} from './partners-list.container'
