@@ -1,0 +1,27 @@
+GET http://localhost:3000/partners/500
+
+###
+
+GET http://localhost:3000/partners
+
+###
+
+POST http://localhost:3000/partners
+Content-Type: application/json
+
+{
+    "id": 17,
+    "urlName": "ask-leadership",
+    "organization": "Ask Leadership",
+    "customerLocations": "in the Caribbean, United States, Canada and UK",
+    "willWorkRemotely": true,
+    "website": null,
+    "services": "Ask Leadership is a vibrant business that works to build success for individuals and organizations around the world. Our primary focus is people and team development. The 360 tool is key to seeing where each person stands today and to track their progress as we work with them.",
+    "offices": [
+      {
+        "location": "Trinidad",
+        "address": "70 Caspian Cove, Westmoorings, Port of Spain, Trinidad",
+        "coordinates": "10.6792447,-61.56065180000002"
+      }
+    ]
+}
